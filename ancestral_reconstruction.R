@@ -14,9 +14,6 @@ library(viridisLite)
 library(TreeTools)
 
 
-
-setwd('/home/habich/AH112/')
-
 tree_all <- read.newick('forEff_with_outgroup_Ppar_HKY.treefile')
 strains_in_tree <- c(TipLabels(tree_all))
 
