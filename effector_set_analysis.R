@@ -9,9 +9,7 @@ library(reshape2)
 library(packcircles)
 
 
-setwd("/Users/habich/Documents/Projects/AH69_ES_large_scale/downstream_analysis_paper/f_effector_sets/")
-
-md <- read.csv('../forEff_effector_sets.csv', header = T)
+md <- read.csv('forEff_effector_sets.csv', header = T)
 
 loci <- c('PA1844', 'PA2684', 'PA2702', 'PA2774', 'PA3484', 'PA4163',
           'PA0093', 'PA0099', 
