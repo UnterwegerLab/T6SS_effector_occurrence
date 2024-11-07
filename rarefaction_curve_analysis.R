@@ -13,9 +13,7 @@ library(tidyr)
 
 # info here: https://www.youtube.com/watch?v=ywHVb0Q-qsM
 
-setwd("/Users/habich/Documents/Projects/AH69_ES_large_scale/downstream_analysis_paper/g_rarefaction_curve/")
-
-g2_md_pre <- read.csv('../forEff_effector_sets.csv', header = T)
+g2_md_pre <- read.csv('forEff_effector_sets.csv', header = T)
 
 g2_md_pre$number_of_eff <- NULL
 
