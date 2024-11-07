@@ -9,7 +9,6 @@ library(reshape2)     # transform data between wide and long formats
 library(stringr)      # wrappers for common string operations
 
 
-setwd("/home/habich/AH69/blastn/")
 db <- "allTminus"
 
 
