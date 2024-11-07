@@ -14,8 +14,6 @@ library(phytools)
 
 # info here: https://yulab-smu.top/treedata-book/chapter7.html
 
-setwd("/Users/habich/Documents/Projects/AH123_accessory_effector_evolution/b_mirror_trees/")
-
 eff <- 'PA14-43100_PA14'
 
 tree_wg <- read.newick(paste0(eff,'/', eff, '_core_gene_alignment_filtered.aln.treefile'))
